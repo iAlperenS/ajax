@@ -1,0 +1,98 @@
+{
+    "Lang": {
+        "1": "Please select an lang:",
+        "Langs": {
+            "eng": "English",
+            "tr": "Turkce"
+        }
+    }, "Description": {
+        "English": "Hey its look like its your first try, my discord: xalperen if you need help you add me friend this program was private please tell me what can i add feel free!",
+        "Turkce": "Merhaba programı ilk defa kullanıyorsun galiba, discordum: xalperen eğer yardıma ihtiyacın olursa discorddan yardım istiye bilirsin!"
+    }, "Enter": {
+        "English": "Please enter for the save settings",
+        "Turkce": "Lutfen degisikleri kaydetmek icin entera basin"
+    },
+    "Turkce": {
+        "Main": {
+            "check_internet": "Internet kontrol ediliyor...",
+            "check_version": "Versiyon kontrol ediliyor...",
+            "check_api": "Api kontrol ediliyor",
+            "license_key": "Lisans anahtarınızı girin :",
+            "set_cord1": "cord1 konumu:",
+            "set_cord2": "cord2 konumu:",
+            "succes_license": "Başarılı - Lisansın bitişi : 2025.04.03 15.23.00"
+        }, "Gui": {
+            "Settings": "Ayarlar <#>",
+            "0": "Menüyü düzenle",
+            "1": "OtoBüyü (Full AFK)",
+            "2": "Craftrise Checker (Yeni)",
+            "3": "Craftrise Hesap Oluşturucu",
+            "4": "Kordinat + Dünya - Gönderici (Oto)",
+            "5": "Enjektör (Inject)"
+        }, "Gui0":{
+            "none":"none"
+        }, "Gui1": {
+            "none":"none"
+        }, "Gui2": {
+            "none":"none"
+        }, "Gui3": {
+            "none": "none"
+        }, "Gui4": {
+            "press_cord": "Lütfen Kordinat ve Dünya bilgilerini almak için 'X' tuşuna basın"
+        }, "Gui5": {
+            "process_name": "Lütfen işlem adını girin",
+            "dll_file": "Lütfen dosya ismini girin"
+        }, "Result": {
+            "internet_1": "Internet bağlantısı yok",
+            "version_1": "Yeni versiyon mevcut",
+            "version_2": "Yeni versiyon mevcut değil",
+            "api_1": "Api çalışıyor",
+            "api_2": "Api mevcut değil",
+            "inject_find": "Bulunan:",
+            "inject_find_2": "Böyle bir pid bulunamadı",
+            "inject_log": "Bütün pidler loglara yazıldı!",
+            "inject_1": "Enjekte ediliyor"
+        }
+    }, "English": {
+        "Main": {
+            "check_internet": "No internet connection",
+            "check_version": "Checking version...",
+            "check_api": "Checking api...",
+            "license_key": "Enter license key :",
+            "set_cord1": "Setted cord1 as:",
+            "set_cord2": "Setted cord2 as:",
+            "succes_license": "Succes - License Expire : 2025.04.03 15.23.00"
+        }, "Gui": {
+            "Settings": "Settings <#>",
+            "0": "Edit Gui",
+            "1": "AutoEnchant (Full AFK)",
+            "2": "Craftrise Checker (Soon)",
+            "3": "Craftrise Generator (Soon)",
+            "4": "Cordinate + World - Sender (Auto)",
+            "5": "Injector (Inject)"
+        }, "Gui0":{
+            "none":"none"
+        }, "Gui1": {
+            "none":"none"
+        }, "Gui2": {
+            "none":"none"
+        }, "Gui3": {
+            "none": "none"
+        }, "Gui4": {
+            "press_cord": "Please press 'X' for the get Cordinate and world."
+        }, "Gui5": {
+            "process_name": "Enter the process name",
+            "dll_file": "Enter the file name (.dll)"
+        }, "Result": {
+            "internet_1": "No internet connection",
+            "version_1": "New version available",
+            "version_2": "New version not available",
+            "api_1": "Api works",
+            "api_2": "Api dont available",
+            "inject_find": "Finded:",
+            "inject_find_2": "I cannot find a pid",
+            "inject_log": "All pids was writed at logs!",
+            "inject_1": "Injected"
+        }
+    }
+}
