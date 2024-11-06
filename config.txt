@@ -1,0 +1,18 @@
+[Counter]
+count = 89
+
+[Menu]
+banner = BLUE
+
+[Start]
+fp = 1
+lang = English
+setup = 0
+
+[Cords]
+con1 = 606, 319
+con2 = 517, 303
+
+[Version]
+v = 1.1
+
