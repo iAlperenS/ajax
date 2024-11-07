@@ -1,12 +1,12 @@
 [Counter]
-count = 89
+count = 0
 
 [Menu]
 banner = BLUE
 
 [Start]
-fp = 1
-lang = English
+fp = 0
+lang = 0
 setup = 0
 
 [Cords]
