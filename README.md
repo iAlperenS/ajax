@@ -9,3 +9,5 @@
 - Install the all pips (run setup)
 - Works with Python 3.11.4
 - Tested in Windows10/Windows11
+
+  ![alt text](https://github.com/iAlperenS/ajax/blob/f10c27957634fddce8304afdbbb135380de5e1f6/images/ajaxv1.png?raw=True)
