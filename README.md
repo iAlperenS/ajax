@@ -3,6 +3,7 @@
 - Youtube: https://www.youtube.com/@iAlperenS
 - if u want the use codes or make it better give credits
 - For edu purposes
+- And give to star ⭐ :d
 
 ### Requirements and warnings
 - If its dont work make screen 1280x720 but dont need
