@@ -132,5 +132,5 @@ def Banner(color=Fore.BLUE, c2=Fore.WHITE):
                                                 {color}██{c2}╔══{color}██{c2}║{color}██   ██{c2}║{color}██{c2}╔══{color}██{c2}║ {color}██{c2}╔{color}██{c2}╗ 
                                                 {color}██{c2}║  {color}██{c2}║╚{color}█████{c2}╔╝{color}██{c2}║  {color}██{c2}║{color}██{c2}╔╝{color} ██{c2}╗
                                                 {c2}╚═╝  ╚═╝ ╚════╝ ╚═╝  ╚═╝╚═╝  ╚═╝                             
-                                                {Fore.LIGHTBLUE_EX}discord{c2}: {Fore.GREEN}xalperen    {Fore.LIGHTBLUE_EX}v{Fore.GREEN}{version}
+                                                {Fore.LIGHTBLUE_EX}discord{c2}: {Fore.GREEN}xalperen    {Fore.LIGHTBLUE_EX}v{Fore.GREEN}{version}  {Fore.YELLOW}github.com/iAlperenS
             """
