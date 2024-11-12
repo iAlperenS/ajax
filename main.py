@@ -3,6 +3,9 @@ import configparser
 from system.check import *
 from hacks.Utils.Timers import *
 from hacks.enchant_book import *
+from hacks.WordSender import *
+# from Bot.bot import BBot
+from system.ui.changer import *
 from Logger import *
 from banner import Banner, Succes, Inputan, log, ColorMenu
 from hacks.Dlljector.injectors import *
@@ -33,13 +36,14 @@ try:
         count += 1
         Config.set("Counter", "count", str(count))
         # Checking shits
-        internet_check(); version_check(); check_api(); check_cord()
+        internet_check(); check_api(); check_cord(); version_check()
         lang = str(lang)
         with open("config.txt", "w") as configfile:
             Config.write(configfile)
         lang = Config.get("Start", "lang")
         license = input(Fore.WHITE + f"[#] {local[f'{lang}']['Main']['license_key']} ")
-    except:
+    except Exception as error:
+        log(text=f" {error}")
         Inputan(num="!", text=" Please restart program!")
         sys.exit()
         os._exit(0)
@@ -86,13 +90,18 @@ try:
                 craftrise_gen_menu()
             elif zx == 4 or zx == "4":
                 refresh()
-                log(text=f" {local[f'{lang}']['Gui4']['press_cord']}");n()
+                log(text=f" {local[f'{lang}']['Gui4']['press_cord']}");AutoWord()
+                n()
+
             elif zx == 5 or zx == "5":
                 refresh()
                 Dll = Inputan(tabs="  ", text=f" {local[f'{lang}']['Gui5']['process_name']}: ")
                 Pid = find_pid_by_title(f"{Dll}")
                 DllFile = Inputan(tabs="  ", text=f" {local[f'{lang}']['Gui5']['dll_file']}: ")
                 injector(pid=Pid, dll=DllFile)
+            elif zx == 6 or zx == "6":
+                refresh()
+                # BBot.online("123", "!", "123id")
                 
         start()
     else:
