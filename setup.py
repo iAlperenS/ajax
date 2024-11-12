@@ -22,10 +22,11 @@ print("""
 # psutil
 # keyboard
 # pynput
+# pywin32
 # [ ------------------------------------------------ ]
 # - V1.3""")
 input("Please press enter to countinue install ")
-cmd("pip install colorama pynput configparser datetime requests pillow pyautogui threaded pyinjector psutil keyboard")
+cmd("pip install colorama pynput pywin32 configparser datetime requests pillow pyautogui threaded pyinjector psutil keyboard")
 input("Downloaded the all pips! ")
 # -------------
 #   Debugger
