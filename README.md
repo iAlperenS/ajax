@@ -7,6 +7,7 @@
 
 ### Requirements and warnings
 - If its dont work make screen 1280x720 but dont need
+- Default pack required
 - Install the all pips (run setup)
 - Works with Python 3.11.4
 - Tested in Windows10/Windows11
