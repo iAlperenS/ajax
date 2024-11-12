@@ -5,6 +5,16 @@
 - For edu purposes
 - And give to star ⭐ :d
 
+## Features
+- AutoEnchant Book
+  - K3
+  - V4
+  - D3
+  - More Books
+- Cordinate and world show
+  - Taking xyz and world (dünya)
+  - Working with pressing 'x'
+
 ### Requirements and warnings
 - If its dont work make screen 1280x720 but dont need
 - Default pack required
