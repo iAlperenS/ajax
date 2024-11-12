@@ -2,6 +2,7 @@ import pyautogui, datetime, threading, requests, time, colorama, json
 from system.data import *
 from Logger import *
 from colorama import Fore
+from hacks.WordSender import set_cord
 colorama.init()
 
 # github.com/iAlperenS
@@ -21,6 +22,8 @@ def kitap():
 
             con1_x = int(eski_x * genislik_orani); con1_y = int(eski_y * yukseklik_orani)
             con2_x = int(eski_x2 * genislik_orani); con2_y = int(eski_y2 * yukseklik_orani)
+
+            trash_x, trash_y = set_cord(606, 220)
             def take_screenshot_and_send():
                     """now_utc = datetime.datetime.utcnow()
 
@@ -117,9 +120,9 @@ def kitap():
                         headers = {
                             'Content-Type': 'application/json'
                         }
-                        x = open("C:\Ajaxs_Ware\custom.txt", "r")
+                        #x = open("C:\Ajaxs_Ware\custom.txt", "r")
                         otokitap = 1
-                        response = requests.post(webhook_url, data=json_message, headers=headers)
+                        #response = requests.post(webhook_url, data=json_message, headers=headers)
                         if otokitap == 1:
                             try:
                                 baslangic_x = 470
@@ -292,7 +295,7 @@ def kitap():
 
                             try:
                                 if pyautogui.locateOnScreen(f'{klasor}1lvl2.png', grayscale=True):
-                                    pyautogui.moveTo(606, 220)
+                                    pyautogui.moveTo(trash_x, trash_y)
                                     pyautogui.click()
                                     pyautogui.click()
 
