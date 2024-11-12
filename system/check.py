@@ -43,7 +43,8 @@ def version_check():
         v = requests.get("https://raw.githubusercontent.com/iAlperenS/ajax/main/version.txt")
         v = float(v.text.strip())
         if v > ver:
-            log(num="!",tabs="", text=f" {local[f'{lang}']['Result']['version_1']}")
+            print()
+            log(c1=Fore.GREEN, num="!",tabs="", text=f" {local[f'{lang}']['Result']['version_1']}")
             Log.write(f"{local[f'{lang}']['Result']['version_1']}")
         else:
             Log.write(f"{local[f'{lang}']['Result']['version_2']}")
